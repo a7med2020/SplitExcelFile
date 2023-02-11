@@ -63,17 +63,16 @@ namespace SplitExcelFile
             this.groupBox1.Controls.Add(this.txt_FileExcelPath);
             this.groupBox1.Controls.Add(this.btn_Split);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(12, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(808, 386);
+            this.groupBox1.Size = new System.Drawing.Size(816, 411);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Encrypt text";
             // 
             // chb_AddRemainderRowsToLastFile
             // 
             this.chb_AddRemainderRowsToLastFile.AutoSize = true;
-            this.chb_AddRemainderRowsToLastFile.Location = new System.Drawing.Point(12, 281);
+            this.chb_AddRemainderRowsToLastFile.Location = new System.Drawing.Point(12, 269);
             this.chb_AddRemainderRowsToLastFile.Name = "chb_AddRemainderRowsToLastFile";
             this.chb_AddRemainderRowsToLastFile.Size = new System.Drawing.Size(340, 29);
             this.chb_AddRemainderRowsToLastFile.TabIndex = 14;
@@ -84,7 +83,7 @@ namespace SplitExcelFile
             // lbl_RemainderRows
             // 
             this.lbl_RemainderRows.AutoSize = true;
-            this.lbl_RemainderRows.Location = new System.Drawing.Point(545, 236);
+            this.lbl_RemainderRows.Location = new System.Drawing.Point(545, 223);
             this.lbl_RemainderRows.Name = "lbl_RemainderRows";
             this.lbl_RemainderRows.Size = new System.Drawing.Size(23, 25);
             this.lbl_RemainderRows.TabIndex = 13;
@@ -93,7 +92,7 @@ namespace SplitExcelFile
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(289, 236);
+            this.label4.Location = new System.Drawing.Point(289, 223);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(246, 25);
             this.label4.TabIndex = 12;
@@ -102,7 +101,7 @@ namespace SplitExcelFile
             // lbl_NumberOfNewFiles
             // 
             this.lbl_NumberOfNewFiles.AutoSize = true;
-            this.lbl_NumberOfNewFiles.Location = new System.Drawing.Point(235, 236);
+            this.lbl_NumberOfNewFiles.Location = new System.Drawing.Point(235, 223);
             this.lbl_NumberOfNewFiles.Name = "lbl_NumberOfNewFiles";
             this.lbl_NumberOfNewFiles.Size = new System.Drawing.Size(23, 25);
             this.lbl_NumberOfNewFiles.TabIndex = 11;
@@ -111,7 +110,7 @@ namespace SplitExcelFile
             // lbl_
             // 
             this.lbl_.AutoSize = true;
-            this.lbl_.Location = new System.Drawing.Point(11, 236);
+            this.lbl_.Location = new System.Drawing.Point(11, 223);
             this.lbl_.Name = "lbl_";
             this.lbl_.Size = new System.Drawing.Size(197, 25);
             this.lbl_.TabIndex = 10;
@@ -189,9 +188,9 @@ namespace SplitExcelFile
             this.btn_Split.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_Split.Image = global::SplitExcelFile.Properties.Resources.xlsx__3_;
             this.btn_Split.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_Split.Location = new System.Drawing.Point(273, 329);
+            this.btn_Split.Location = new System.Drawing.Point(235, 338);
             this.btn_Split.Name = "btn_Split";
-            this.btn_Split.Size = new System.Drawing.Size(240, 51);
+            this.btn_Split.Size = new System.Drawing.Size(386, 51);
             this.btn_Split.TabIndex = 2;
             this.btn_Split.Text = "Split";
             this.btn_Split.UseVisualStyleBackColor = true;
@@ -201,7 +200,7 @@ namespace SplitExcelFile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(840, 410);
+            this.ClientSize = new System.Drawing.Size(840, 423);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
