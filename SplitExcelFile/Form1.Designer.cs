@@ -167,7 +167,7 @@ namespace SplitExcelFile
             this.btn_BrowseFileExcel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_BrowseFileExcel.Location = new System.Drawing.Point(721, 46);
             this.btn_BrowseFileExcel.Name = "btn_BrowseFileExcel";
-            this.btn_BrowseFileExcel.Size = new System.Drawing.Size(75, 36);
+            this.btn_BrowseFileExcel.Size = new System.Drawing.Size(89, 36);
             this.btn_BrowseFileExcel.TabIndex = 4;
             this.btn_BrowseFileExcel.Text = "Browse";
             this.btn_BrowseFileExcel.UseVisualStyleBackColor = true;

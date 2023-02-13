@@ -115,7 +115,7 @@ namespace SplitExcelFile
 
                     FileInfo originalExcelFileInfo = new FileInfo(txt_FileExcelPath.Text);
                     string originalExcelFileDirectory = originalExcelFileInfo.DirectoryName;
-                    string newFilesDirectory = originalExcelFileDirectory + "\\SplitedExcelFiles " + DateTime.Now.ToString("yyyyMMddHHmmss");
+                    string newFilesDirectory = originalExcelFileDirectory + "\\SplittedExcelFiles " + DateTime.Now.ToString("yyyyMMddHHmmss");
 
                     int fileIndex = 1;
                     foreach (var file in splittedFileStartAndEndRowNumbers)
